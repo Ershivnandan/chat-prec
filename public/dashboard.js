@@ -1,9 +1,6 @@
-import dotenv from 'dotenv'
 
-dotenv.config()
-
-const token = localStorage.getItem('token')
-const socket = io(`http://localhost:${process.env.PORT}`, {
+const token = localStorage.getItem('authToken')
+const socket = io(`http://localhost:8080/api`, {
   query: { token },
 })
 
@@ -29,6 +26,7 @@ socket.on('onlineUsers', (users) => {
 joinRoomButton.addEventListener('click', () => {
   const roomName = roomInput.value.trim()
   if (roomName) {
+    console.log("cvfddv")
     socket.emit('joinRoom', roomName)
   }
 })
