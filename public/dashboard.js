@@ -11,7 +11,7 @@ const joinRoomButton = document.getElementById('join-room')
 
 logoutButton.addEventListener('click', () => {
   localStorage.removeItem('authToken')
-  window.location.href = '/'
+  window.location.href = '/public/index.html'
 })
 
 socket.on('onlineUsers', (users) => {
@@ -26,7 +26,6 @@ socket.on('onlineUsers', (users) => {
 joinRoomButton.addEventListener('click', () => {
   const roomName = roomInput.value.trim()
   if (roomName) {
-    console.log("cvfddv")
     socket.emit('joinRoom', roomName)
   }
 })
