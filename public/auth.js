@@ -1,4 +1,4 @@
-const baseURL = `http://localhost:8080`
+const baseURL = `http://localhost:8080/api`
 
 document.getElementById('show-signup').addEventListener('click', () => {
   document.getElementById('login-form').classList.add('hidden')
@@ -19,7 +19,7 @@ document
     const password = document.getElementById('login-password').value
 
     try {
-      const response = await fetch(`${baseURL}/api/login`, {
+      const response = await fetch(`${baseURL}/user/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -28,6 +28,8 @@ document
       const result = await response.json()
       if (response.ok) {
         alert('Login successful!')
+        localStorage.setItem('authToken', result.token)
+        window.location.href = '/public/dashboard.html'
       } else {
         alert(result.message || 'Login failed')
       }
@@ -53,8 +55,10 @@ document
     formData.append('password', password)
     if (avatar) formData.append('avatar', avatar)
 
+    console.log(formData)
+
     try {
-      const response = await fetch(`${baseURL}/api/signup`, {
+      const response = await fetch(`${baseURL}/user/signup`, {
         method: 'POST',
         body: formData,
       })

@@ -36,15 +36,17 @@ export const signUp = async (req, res, next) => {
     next(err)
   }
 }
-  
+
 export const login = async (req, res, next) => {
   try {
     const { email, password } = req.body
+
+    console.log(email, password)
     const isAvailable = await User.findOne({ email })
     if (!isAvailable) {
       return res.status(404).json({ message: 'user is not found' })
     }
-    const isValidPassword = await bcrypt.compare(password, isAvailable.password)
+    const isValidPassword = bcrypt.compare(password, isAvailable.password)
     if (!isValidPassword) {
       res.status(400).json({ message: 'incorrect credentials' })
     }
@@ -60,7 +62,7 @@ export const login = async (req, res, next) => {
     )
 
     res.status(200).json({ token })
-  } catch (error) {
+  } catch (err) {
     next(err)
   }
 }

@@ -13,7 +13,7 @@ const roomInput = document.getElementById('room-input')
 const joinRoomButton = document.getElementById('join-room')
 
 logoutButton.addEventListener('click', () => {
-  localStorage.removeItem('token')
+  localStorage.removeItem('authToken')
   window.location.href = '/'
 })
 

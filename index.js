@@ -11,6 +11,8 @@ import chatRoutes from './src/Routes/chat.routes.js'
 import initSocket from './src/Sockets/socketHandler.js'
 import { Server } from 'socket.io'
 import startCronJob from './src/Service/cronjob.js'
+import path from 'path'
+import { fileURLToPath } from 'url'
 
 dotenv.config()
 
@@ -42,6 +44,11 @@ app.use(
 app.get('/', (req, res) => {
   res.send(`<h1>Server is running</h1>`)
 })
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api/user', userRoutes)
 app.use("/api/chat", chatRoutes);

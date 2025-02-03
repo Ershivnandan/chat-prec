@@ -8,3 +8,41 @@
 [INFO] 2025-02-03 17:07:32 - [34mPOST[39m /api/user/login [33m404[39m 92.028ms - PostmanRuntime/7.43.0
 [INFO] 2025-02-03 17:07:45 - [34mPOST[39m /api/user/signup [32m201[39m 4538.234ms - PostmanRuntime/7.43.0
 [INFO] 2025-02-03 17:12:41 - [34mPOST[39m /api/signup [33m404[39m 8.873ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:22:03 - [34mPOST[39m /api/signup [33m404[39m 7.256ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:23:13 - [34mPOST[39m /api/signup [33m404[39m 8.338ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:25:23 - [34mPOST[39m /api/user/signup [32m201[39m 5664.882ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:25:42 - [37mOPTIONS[39m /api/user/login [32m204[39m 0.640ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:26:43 - [37mOPTIONS[39m /api/user/login [32m204[39m 2.259ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[ERROR] 2025-02-03 17:26:43 - Error: secretOrPrivateKey must have a value | URL: /api/user/login | Method: POST
+[INFO] 2025-02-03 17:26:43 - [34mPOST[39m /api/user/login [31m500[39m 232.904ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:27:01 - [37mOPTIONS[39m /api/user/login [32m204[39m 0.364ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[ERROR] 2025-02-03 17:27:01 - Error: secretOrPrivateKey must have a value | URL: /api/user/login | Method: POST
+[INFO] 2025-02-03 17:27:01 - [34mPOST[39m /api/user/login [31m500[39m 130.252ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:29:01 - [37mOPTIONS[39m /api/user/login [32m204[39m 3.066ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[ERROR] 2025-02-03 17:29:02 - Error: secretOrPrivateKey must have a value | URL: /api/user/login | Method: POST
+[INFO] 2025-02-03 17:29:02 - [34mPOST[39m /api/user/login [31m500[39m 193.512ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[ERROR] 2025-02-03 17:29:46 - Error: secretOrPrivateKey must have a value | URL: /api/user/login | Method: POST
+[INFO] 2025-02-03 17:29:46 - [34mPOST[39m /api/user/login [31m500[39m 114.963ms - PostmanRuntime/7.43.0
+[INFO] 2025-02-03 17:31:12 - [37mOPTIONS[39m /api/user/login [32m204[39m 0.989ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[ERROR] 2025-02-03 17:31:12 - Error: secretOrPrivateKey must have a value | URL: /api/user/login | Method: POST
+[INFO] 2025-02-03 17:31:12 - [34mPOST[39m /api/user/login [31m500[39m 141.359ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:32:00 - [37mOPTIONS[39m /api/user/login [32m204[39m 1.413ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[ERROR] 2025-02-03 17:32:00 - Error: secretOrPrivateKey must have a value | URL: /api/user/login | Method: POST
+[INFO] 2025-02-03 17:32:00 - [34mPOST[39m /api/user/login [31m500[39m 129.812ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[ERROR] 2025-02-03 17:32:06 - Error: secretOrPrivateKey must have a value | URL: /api/user/login | Method: POST
+[INFO] 2025-02-03 17:32:06 - [34mPOST[39m /api/user/login [31m500[39m 108.842ms - PostmanRuntime/7.43.0
+[INFO] 2025-02-03 17:33:48 - [34mPOST[39m /api/user/login [32m200[39m 169.810ms - PostmanRuntime/7.43.0
+[INFO] 2025-02-03 17:34:01 - [37mOPTIONS[39m /api/user/login [32m204[39m 0.928ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:34:01 - [34mPOST[39m /api/user/login [32m200[39m 111.406ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:37:34 - [37mOPTIONS[39m /api/user/login [32m204[39m 2.835ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:37:34 - [34mPOST[39m /api/user/login [32m200[39m 251.260ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:39:46 - [37mOPTIONS[39m /api/user/login [32m204[39m 2.415ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:39:46 - [34mPOST[39m /api/user/login [32m200[39m 178.439ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:44:04 - [37mOPTIONS[39m /api/user/login [32m204[39m 2.237ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:44:05 - [34mPOST[39m /api/user/login [32m200[39m 221.396ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:44:39 - [37mOPTIONS[39m /api/user/login [32m204[39m 0.329ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:44:39 - [34mPOST[39m /api/user/login [32m200[39m 109.281ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:45:32 - [37mOPTIONS[39m /api/user/login [32m204[39m 1.386ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:45:32 - [34mPOST[39m /api/user/login [32m200[39m 122.411ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:46:30 - [37mOPTIONS[39m /api/user/login [32m204[39m 0.184ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0
+[INFO] 2025-02-03 17:46:30 - [34mPOST[39m /api/user/login [32m200[39m 112.059ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0
