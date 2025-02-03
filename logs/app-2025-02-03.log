@@ -1,0 +1,10 @@
+[INFO] 2025-02-03 14:39:20 - [34mPOST[39m /user/signup [32m201[39m 203.535ms - PostmanRuntime/7.43.0
+[INFO] 2025-02-03 14:40:28 - [34mPOST[39m /user/signup [32m201[39m 113.439ms - PostmanRuntime/7.43.0
+[INFO] 2025-02-03 16:10:59 - [34mPOST[39m /user/signup [33m404[39m 5.157ms - PostmanRuntime/7.43.0
+[INFO] 2025-02-03 16:11:19 - [34mPOST[39m /api/user/signup [32m201[39m 3272.414ms - PostmanRuntime/7.43.0
+[INFO] 2025-02-03 16:56:43 - [34mPOST[39m /api/signup [33m404[39m 9.828ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:00:58 - [37mOPTIONS[39m /api/login [32m204[39m 3.604ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:00:59 - [34mPOST[39m /api/login [33m404[39m 53.214ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+[INFO] 2025-02-03 17:07:32 - [34mPOST[39m /api/user/login [33m404[39m 92.028ms - PostmanRuntime/7.43.0
+[INFO] 2025-02-03 17:07:45 - [34mPOST[39m /api/user/signup [32m201[39m 4538.234ms - PostmanRuntime/7.43.0
+[INFO] 2025-02-03 17:12:41 - [34mPOST[39m /api/signup [33m404[39m 8.873ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36

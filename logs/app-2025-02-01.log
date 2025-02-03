@@ -1,0 +1,2 @@
+[INFO] 2025-02-01 20:15:55 - [32mGET[39m /user/signup [33m404[39m 38.503ms - PostmanRuntime/7.43.0
+[INFO] 2025-02-01 20:16:00 - [34mPOST[39m /user/signup [32m201[39m 231.268ms - PostmanRuntime/7.43.0
